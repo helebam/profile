@@ -59,10 +59,12 @@ button:hover {
   padding-left: 0px;
 }
 #img-circle {
-border-radius: 50%;
-width: 150px;
-height: 150px;
-box-shadow:0 10px 30px rgba(0,0,0,.1);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  box-shadow:0 10px 30px rgba(0,0,0,.1);
+  object-fit: cover;
+  object-position: right;
 }
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
